@@ -1,6 +1,6 @@
-% Tuning degli iperparametri in Tensorflow/Keras
-% Marco Fiume
-% 22/7/2022
+# Tuning degli iperparametri in Tensorflow/Keras
+## Marco Fiume
+## 22/7/2022
 
 Gli iperparametri definiscono la struttura di una rete neurale e il modo in cui essa viene addestrata. Alcuni esempi sono: l’algoritmo di ottimizzazione, il learning rate, il numero di livelli nascosti, il numero di unità per ogni livello, l’utilizzo di tecniche di regolarizzazione come il dropout ecc. Le possibili combinazioni sono infinite e le prestazioni finali dipendono fortemente da una scelta corretta degli iperparametri. Con l’aumentare della complessità dei modelli è diventato necessario automatizzare questa ricerca. Nel caso in esame è stato studiato l’algoritmo di ottimizzazione Hyperband.
 
